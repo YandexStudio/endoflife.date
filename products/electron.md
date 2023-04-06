@@ -21,24 +21,31 @@ auto:
 # v26 (releaseDate) = v23 (eol)
 # and so on...
 releases:
+-   releaseCycle: "24"
+    # 2023-04-05 + 6 months
+    eol: 2023-10-05
+    releaseDate: 2023-04-04
+    latestReleaseDate: 2023-04-04
+    latest: "24.0.0"
+
 -   releaseCycle: "23"
     # 2023-02-06 + 6 months
     eol: 2023-08-06
     releaseDate: 2023-02-07
-    latestReleaseDate: 2023-03-16
-    latest: "23.1.4"
+    latestReleaseDate: 2023-04-04
+    latest: "23.2.2"
 
 -   releaseCycle: "22"
     eol: 2023-07-07
     releaseDate: 2022-11-30
-    latestReleaseDate: 2023-03-16
-    latest: "22.3.3"
+    latestReleaseDate: 2023-03-30
+    latest: "22.3.5"
 
 -   releaseCycle: "21"
-    eol: 2023-04-05
+    eol: 2023-04-04
     releaseDate: 2022-09-26
-    latestReleaseDate: 2023-03-16
-    latest: "21.4.3"
+    latestReleaseDate: 2023-04-04
+    latest: "21.4.4"
 
 -   releaseCycle: "20"
     eol: 2023-02-06
